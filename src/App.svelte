@@ -1,4 +1,5 @@
 <script>
+	import { Auth } from '@aws-amplify/auth'
 	export let name;
 </script>
 
