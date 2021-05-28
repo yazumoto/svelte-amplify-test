@@ -25,3 +25,4 @@ import { Auth } from '@aws-amplify/auth'
 ## 注意事項
 - Authを別のパッケージからimportするのはNGです。
 - importしたAuthがundefinedでないことを確認してください。
+- yarn build ではなく、 yarn dev してください。
