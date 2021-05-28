@@ -16,3 +16,11 @@ import { Auth } from '@aws-amplify/auth'
 ```
 
 を入れるとエラーになるので、それをどうにかして解決してください。
+
+## 成功条件
+- yarn devがエラーなく成功する（WarningのみはOK)
+- yarn dev後、 http://localhost:5000 にアクセスして、Webページが表示され、DevToolsのコンソールにエラーが出ていない
+
+## 注意事項
+- Authを別のパッケージからimportするのはNGです。
+- importしたAuthがundefinedでないことを確認してください。
