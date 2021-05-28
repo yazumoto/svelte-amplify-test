@@ -18,6 +18,7 @@ import { Auth } from '@aws-amplify/auth'
 を入れるとエラーになるので、それをどうにかして解決してください。
 
 ## 成功条件
+- `import { Auth } from '@aws-amplify/auth'` の記載がちゃんと実行される位置にある。(src配下のコードは変更しない）
 - yarn devがエラーなく成功する（WarningのみはOK)
 - yarn dev後、 http://localhost:5000 にアクセスして、Webページが表示され、DevToolsのコンソールにエラーが出ていない
 
